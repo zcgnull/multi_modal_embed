@@ -1,0 +1,31 @@
+
+mme:
+  host: 0.0.0.0
+  port: 9090
+  debug: false
+
+milvus:
+  url: 'http://10.20.10.31:19530'
+
+baai:
+  vl:
+    path: '/Users/zhaochenguang/.cache/modelscope/hub/models/BAAI/BGE-VL-base'
+
+minio:
+  user: 'minioadmin'
+  password: 'minioadmin'
+  host: '10.20.10.31:9000'
+  ssl: false
+
+mysql:
+  name: 'mme'
+  host: '39.98.88.195'
+  port: 3316
+  user: 'root'
+  password: '210125'
+
+redis:
+  host: '39.98.88.195'
+  port: 6379
+  password: ''
+  db: 1
