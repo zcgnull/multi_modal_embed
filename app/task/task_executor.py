@@ -209,7 +209,9 @@ def do_handle_task(task):
     if task.get("task_type", "") == "image":
         start_ts = timer()
         try:
-            v, c = embedding_model.encode()
+            image_binary = get_storage_binary(task["bucket"], task["name"])
+            v, c = embedding_model.encode([task.get("content", "")], [image_binary])
+        except
 
 
 

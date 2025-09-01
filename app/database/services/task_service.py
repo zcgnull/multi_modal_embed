@@ -39,6 +39,7 @@ class TaskService(CommonService):
             File.parser_config,
             File.parser_type,
             Knowledgebase.model,
+            Knowledgebase.bucket,
             Knowledgebase.parser_config,
             cls.model.update_time
         ]
